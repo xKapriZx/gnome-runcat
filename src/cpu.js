@@ -1,6 +1,6 @@
 const { Shell } = imports.gi;
 
-// eslint-disable-next-line
+/* eslint-disable */
 var Cpu = class Cpu {
     constructor() {
         this.lastActive = 0;
