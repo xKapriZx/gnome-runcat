@@ -6,7 +6,7 @@ var Cpu = class Cpu {
         this.lastActive = 0;
         this.lastTotal = 0;
 
-        this.utilization = 0;
+        this.utilization = 1;
 
         this.refresh();
     }
