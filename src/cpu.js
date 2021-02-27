@@ -1,7 +1,7 @@
 const { Shell } = imports.gi;
 
 /* eslint-disable */
-var Cpu = class Cpu {
+const Cpu = class Cpu {
     constructor() {
         this.lastActive = 0;
         this.lastTotal = 0;
